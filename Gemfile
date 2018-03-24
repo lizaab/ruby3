@@ -34,11 +34,18 @@ group :test do
   gem 'guard',                    '2.14.1'
   gem 'guard-minitest',           '2.4.6'
 end
-
 group :production do
   gem 'pg',  '0.20.0'
   gem 'fog', '1.42'
 end
+
+
+
+gem 'rails',          '5.1.4'
+gem 'bootstrap-sass', '3.3.7'
+
+
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
